@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class HelloResponseDtoTest {
     @Test
-    public void helloDto_test() {
+    public void lombok_test() {
         String name = "name";
         int age = 30;
 
