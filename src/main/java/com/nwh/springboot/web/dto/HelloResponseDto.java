@@ -1,19 +1,12 @@
 package com.nwh.springboot.web.dto;
 
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+
+@Getter
+@RequiredArgsConstructor
 public class HelloResponseDto {
+
     private final String name;
     private final int age;
-
-    public HelloResponseDto(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getAge() {
-        return age;
-    }
 }
