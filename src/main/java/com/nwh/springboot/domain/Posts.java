@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Getter
 @NoArgsConstructor // 기본 생성자 자동 추가
 @Entity // JPA annotatio. 테이블과 링크될 클래스.
-public class Posts {
+public class Posts extends BaseTimeEntity {
 
     /**
      * @GeneratedValue strategy 종류
